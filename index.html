@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wfcast.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src='wfcast.js'></script>
+    <div class="flex-container" id='mid'>
+        <h1 id="mnh">Weather Forecast</h1>
+        <div class="con">
+            <h3 id="city">Enter city : </h3>
+            <input type="text" id="inp"><br>
+        </div>
+        <button id="btn" onclick="getWeather()">Get Weather</button>
+        <div id="tinfo">
+            <h4 id='a'>            
+            <h4 id='b'>
+            <h4 id='c'>
+        </div>
+        <div class="chart">
+            <canvas id="myChart"></canvas>
+        </div>
+        <h4 id="d"></h4>
+    </div>
+    <script src="chartjs.js"></script>
+    <script src='wfcast.js'></script>
+</body>
+
+</html>
